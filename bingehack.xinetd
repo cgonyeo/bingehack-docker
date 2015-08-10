@@ -1,0 +1,10 @@
+service telnet
+{
+        socket_type     = stream
+        protocol        = tcp
+        wait            = no
+        user            = root
+        groups          = yes
+        server          = /usr/sbin/in.telnetd
+        server_args     = -h -L /root/telnet-nethack
+}

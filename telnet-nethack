@@ -1,0 +1,4 @@
+#!/bin/sh
+LC_ALL="en_US.utf8"
+export LC_ALL
+exec /root/nethack4/nethack4-data/nethack -k
